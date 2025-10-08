@@ -9,3 +9,4 @@
 - [วิดีโอสอน](videos.md)
 - [FAQ](faq.md)"# manualfeedmeTH" 
 "# manualfeedmeTH" 
+"# manualfeedmeTH" 
