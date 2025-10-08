@@ -8,3 +8,4 @@
 - [ฟีเจอร์หลัก](features.md)
 - [วิดีโอสอน](videos.md)
 - [FAQ](faq.md)"# manualfeedmeTH" 
+"# manualfeedmeTH" 
