@@ -7,6 +7,10 @@
 - [การติดตั้ง](installation.md)
 - [ฟีเจอร์หลัก](features.md)
 - [วิดีโอสอน](videos.md)
-- [FAQ](faq.md)"# manualfeedmeTH" 
+- [FAQ](faq.md)"
+
+
+# manualfeedmeTH" 
+"# manualfeedmeTH" 
 "# manualfeedmeTH" 
 "# manualfeedmeTH" 

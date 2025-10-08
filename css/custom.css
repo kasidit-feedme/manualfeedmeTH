@@ -1,0 +1,105 @@
+/* พื้นหลังหลักและตัวอักษร */
+body {
+  font-family: "Prompt", sans-serif;
+  background-color: #ffffff; /* ขาวเรียบ */
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* หัวข้อ */
+h1, h2, h3 {
+  color: #ff6600;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-shadow: 1px 1px 2px rgba(255,102,0,0.2); /* เพิ่มเลเยอร์เบา */
+}
+
+/* Sidebar เรียบหรู */
+.sidebar-nav {
+  background-color: #ffffff;
+  border-right: 1px solid #eee;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(255,102,0,0.05); /* เงา subtle */
+}
+
+/* ลิงก์ sidebar */
+.sidebar-nav a {
+  color: #ff6600;
+  text-decoration: none;
+  display: block;
+  padding: 10px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-nav a:hover, .sidebar-nav a.active {
+  background-color: rgba(255,102,0,0.15);
+  color: #ff3300;
+  transform: translateX(3px);
+}
+
+/* ลิงก์ในเนื้อหา */
+a {
+  color: #ff6600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #ff3300;
+  text-decoration: underline;
+}
+
+/* Section card */
+section {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 4px 20px rgba(255,102,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(255,102,0,0.12);
+}
+
+/* รูปภาพและวิดีโอ */
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255,102,0,0.08);
+  margin: 15px 0;
+  transition: transform 0.3s ease;
+}
+
+img:hover, video:hover {
+  transform: scale(1.02);
+}
+
+/* Blockquote เรียบหรู */
+blockquote {
+  border-left: 5px solid #ff6600;
+  padding-left: 18px;
+  color: #666666;
+  font-style: italic;
+  background-color: #fff8f0;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 2px 10px rgba(255,102,0,0.05);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none; /* ซ่อน sidebar */
+  }
+  .app-name {
+    text-align: center;
+  }
+}
